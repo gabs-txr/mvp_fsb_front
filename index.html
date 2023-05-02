@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Lst Series</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h1>Lista de Series para assistir</h1>
+        </div>
+        <div class="banner">
+            <img src="img/banner.jpg">
+        </div>
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newTV">
+        <input type="text" id="newName" placeholder="Qual o nome da Serie?">
+        <input type="text" id="newTemp" placeholder="Quantas temporadas?">
+        <input type="text" id="newStream" placeholder="Qual a plataforma?">
+        <span onclick="newTV()" class="addBtn">Adicionar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="series">
+        <table id="myTable">
+            <thead>
+            <tr id="idlinha">
+                <th class="id">ID</th>
+                <th>Nome</th>
+                <th>Temporadas</th>
+                <th>Plataforma</th>
+                <th><img src="https://cdn.iconscout.com/icon/free/png-256/free-trash-2103470-1775066.png?f=webp&w=256" class="lixo"></th>
+            </tr>
+            </thead>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+

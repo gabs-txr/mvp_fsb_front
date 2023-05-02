@@ -1,0 +1,136 @@
+body,
+ul,
+li {
+    font-family: tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224,255,255);
+}
+
+header {
+    background-color: rgb(224,255,255);
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: rgb(25,25,112);
+    width: 100%;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.banner {
+    height: 200px;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 30%;
+}
+
+.newTV {
+    background-color: rgb(224,255,255);
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.newTV:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#newName {
+    margin: 0;
+    border: 1px solid rgb(204, 170, 78);
+    width: 25%;
+    padding: 10px;
+    font-size: 19px;
+}
+
+#newTemp {
+    margin: 0;
+    border: 1px solid rgb(204, 170, 78);
+    width: 25%;
+    padding: 10px;
+    font-size: 19px;
+}
+
+#newStream {
+    margin: 0;
+    border: 1px solid rgb(204, 170, 78);
+    width: 25%;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(28, 15, 51);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.addBtn:hover {
+    background-color: #952ab5;
+    color: white;
+}
+
+.series {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: start;
+}
+
+table{
+    background-color: rgb(198, 142, 217);
+    width: 50%;
+}
+
+tr:nth-child(odd){
+    background-color: #ddc8f9;
+}
+
+th:nth-child(1){
+    width: 80%;
+}
+
+tr:hover {
+    background: rgb(243, 162, 82);
+}
+
+.lixo {
+    width: 15px;
+    height: 15px;
+}
